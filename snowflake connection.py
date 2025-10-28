@@ -14,10 +14,10 @@ sf_schema = os.getenv("PUBLIC")
 sf_warehouse = os.getenv("COMPUTE_WH")
 sf_role = os.getenv("ACCOUNTADMIN")
 
-aws_key = os.getenv("AKIA5H2PNENJSYFG6T6A")
-aws_secret = os.getenv("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")
-s3_bucket = os.getenv("sparkify-warehousing-project")
-s3_path = os.getenv("https://us-east-1.console.aws.amazon.com/s3/buckets/sparkify-warehousing-project?region=us-east-1&bucketType=general&tab=objects")
+aws_key = os.getenv("")
+aws_secret = os.getenv("")
+s3_bucket = os.getenv("")
+s3_path = os.getenv("")
 
 # ✅ Connect to Snowflake
 conn = snowflake.connector.connect(

@@ -1,0 +1,6 @@
+Sparkify-data-warehousing/
+│
+├── .env
+├── s3_to_snowflake.py
+├── requirements.txt
+└── venv/
